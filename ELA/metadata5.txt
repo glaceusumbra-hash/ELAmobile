@@ -1,0 +1,79 @@
+=================================================================
+       REPORTE DE AUDITORÍA FORENSE DE IMÁGENES
+       Software: ELA Forensic Dashboard v2.5.4
+       Compilación: BUILD-2026.10-REV4 [Figma Extractor Pro / Forensic Analyst Edition]
+=================================================================
+Fecha y hora de generación: 2026-10-14 14:12:09
+
+-----------------------------------------------------------------
+1. IDENTIFICACIÓN DE COMPILACIÓN Y ENTORNO
+-----------------------------------------------------------------
+  - Versión del analizador : v2.5.4
+  - Código de compilación  : BUILD-2026.10-REV4
+  - Edición / Licencia     : Figma Extractor Pro / Forensic Analyst Edition
+  - Estado del motor       : Local / Aislado (Offline Seguro)
+
+
+-----------------------------------------------------------------
+2. INFORMACIÓN DEL DISPOSITIVO / ORIGEN (METADATOS)
+-----------------------------------------------------------------
+  - software_version: v2.5.4
+  - software_build: BUILD-2026.10-REV4
+  - software_edition: Figma Extractor Pro / Forensic Analyst Edition
+  - device_security_token: 14b977ad8869
+  - hardware_timestamp_utc: 2026-10-14T20:11:56.580317+00:00
+  - device_monotonic_clock: 152859530652600
+  - detected_software_footprints: None
+  - source_dimensions: 1062x720 px
+  - network_status: 100%_OFFLINE_LOCAL
+
+
+-----------------------------------------------------------------
+3. MARCO DE CREACIÓN E INTERPRETACIÓN VISUAL (ELA)
+-----------------------------------------------------------------
+  - Modo activo: JET
+  - Calidad JPEG base: 90%
+  - Amplificación: 15.0x
+  - Threshold de corte: 45
+  - Píxeles en discordancia: 17,305
+  - Ratio de manipulación: 2.2632%
+  - Huella SHA-256: 4791f5c83c6370e218654c187a9d01ff39a731f24a7f5d76e3a4f053f23cc50d
+  - Diagnóstico: ALTERACIÓN DETECTADA
+
+
+-----------------------------------------------------------------
+4. DATASET JSON COMPLETO (EVIDENCIA ESTRUCTURADA)
+-----------------------------------------------------------------
+{
+    "compilacion_auditoria": {
+        "aplicacion": "ELA Forensic Dashboard",
+        "version": "v2.5.4",
+        "build": "BUILD-2026.10-REV4",
+        "edicion": "Figma Extractor Pro / Forensic Analyst Edition"
+    },
+    "metadata_dispositivo": {
+        "software_version": "v2.5.4",
+        "software_build": "BUILD-2026.10-REV4",
+        "software_edition": "Figma Extractor Pro / Forensic Analyst Edition",
+        "device_security_token": "14b977ad8869",
+        "hardware_timestamp_utc": "2026-10-14T20:11:56.580317+00:00",
+        "device_monotonic_clock": 152859530652600,
+        "detected_software_footprints": "None",
+        "source_dimensions": "1062x720 px",
+        "network_status": "100%_OFFLINE_LOCAL"
+    },
+    "marco_analisis_visual": {
+        "Modo activo": "JET",
+        "Calidad JPEG base": "90%",
+        "Amplificación": "15.0x",
+        "Threshold de corte": 45,
+        "Píxeles en discordancia": "17,305",
+        "Ratio de manipulación": "2.2632%",
+        "Huella SHA-256": "4791f5c83c6370e218654c187a9d01ff39a731f24a7f5d76e3a4f053f23cc50d",
+        "Diagnóstico": "ALTERACIÓN DETECTADA"
+    }
+}
+
+=================================================================
+Fin del reporte de auditoría.
+=================================================================

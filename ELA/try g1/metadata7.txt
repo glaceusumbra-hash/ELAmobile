@@ -1,0 +1,81 @@
+======================================================================
+       DICTAMEN PERICIAL FORENSE DE AUDITORÍA DE IMÁGENES
+       Software: ELA Forensic Dashboard v2.6.4
+       Compilación: BUILD-2026.10-EXPERT [Figma Extractor Pro / Forensic Diagnostic Edition]
+======================================================================
+Fecha de emisión: 2026-10-14 14:22:00
+
+**********************************************************************
+I. RESULTADO Y EXPLICACIÓN DE MARCADORES (LENGUAJE NATURAL)
+**********************************************************************
+🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN
+
+1. MARCADORES DETECTADOS:
+• SOFTWARE: No se identificaron firmas de programas de diseño conocidos (Photoshop, Canva, Figma).
+• DISCORDANCIA DE COMPRESIÓN (ELA): El 2.2632% del área analizada (17,305 píxeles) presenta una tasa de error de compresión divergente.
+
+2. EXPLICACIÓN DE LOS MARCADORES:
+  -> ¿Por qué indica manipulación?: Cuando un archivo JPEG se guarda, se comprime uniformemente. Si una persona pega un elemento externo, clona detalles o añade textos, esa región modificada no tiene el mismo historial de compresión que el fondo original. Las zonas de brillo anómalo en el visor térmico revelan la ubicación exacta de las inserciones o alteraciones.
+
+3. DICTAMEN PERICIAL:
+Conclusión pericial: Existen indicios parciales (software detectado o ligeras disparidades locales). El archivo pudo haber pasado por un recorte, redimensionado o ajuste cosmético.
+
+
+----------------------------------------------------------------------
+II. INFORMACIÓN DE ORIGEN Y METADATOS TÉCNICOS
+----------------------------------------------------------------------
+  - analizador_version: v2.6.4 (BUILD-2026.10-EXPERT)
+  - device_security_token: 02080267c72f
+  - hardware_timestamp_utc: 2026-10-14T20:21:28.449941+00:00
+  - device_monotonic_clock: 153431400355100
+  - detected_software_footprints: None
+  - source_dimensions: 1062x720 px
+
+
+----------------------------------------------------------------------
+III. PARÁMETROS CUANTITATIVOS DEL MARCO ELA
+----------------------------------------------------------------------
+  - Modo activo: HOT
+  - Calidad JPEG base: 90%
+  - Amplificación: 15.0x
+  - Threshold de corte: 45
+  - Píxeles en discordancia: 17,305
+  - Ratio de manipulación: 2.2632%
+  - Huella SHA-256: 4791f5c83c6370e218654c187a9d01ff39a731f24a7f5d76e3a4f053f23cc50d
+  - Diagnóstico: 🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN
+
+
+----------------------------------------------------------------------
+IV. REGISTRO CRIPTOGRÁFICO JSON COMPLETO
+----------------------------------------------------------------------
+{
+    "auditoria": {
+        "software": "ELA Forensic Dashboard",
+        "version": "v2.6.4",
+        "compilacion": "BUILD-2026.10-EXPERT",
+        "edicion": "Figma Extractor Pro / Forensic Diagnostic Edition"
+    },
+    "origen": {
+        "analizador_version": "v2.6.4 (BUILD-2026.10-EXPERT)",
+        "device_security_token": "02080267c72f",
+        "hardware_timestamp_utc": "2026-10-14T20:21:28.449941+00:00",
+        "device_monotonic_clock": 153431400355100,
+        "detected_software_footprints": "None",
+        "source_dimensions": "1062x720 px"
+    },
+    "ela": {
+        "Modo activo": "HOT",
+        "Calidad JPEG base": "90%",
+        "Amplificación": "15.0x",
+        "Threshold de corte": 45,
+        "Píxeles en discordancia": "17,305",
+        "Ratio de manipulación": "2.2632%",
+        "Huella SHA-256": "4791f5c83c6370e218654c187a9d01ff39a731f24a7f5d76e3a4f053f23cc50d",
+        "Diagnóstico": "🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN"
+    },
+    "dictamen": "🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN\n\n1. MARCADORES DETECTADOS:\n• SOFTWARE: No se identificaron firmas de programas de diseño conocidos (Photoshop, Canva, Figma).\n• DISCORDANCIA DE COMPRESIÓN (ELA): El 2.2632% del área analizada (17,305 píxeles) presenta una tasa de error de compresión divergente.\n\n2. EXPLICACIÓN DE LOS MARCADORES:\n  -> ¿Por qué indica manipulación?: Cuando un archivo JPEG se guarda, se comprime uniformemente. Si una persona pega un elemento externo, clona detalles o añade textos, esa región modificada no tiene el mismo historial de compresión que el fondo original. Las zonas de brillo anómalo en el visor térmico revelan la ubicación exacta de las inserciones o alteraciones.\n\n3. DICTAMEN PERICIAL:\nConclusión pericial: Existen indicios parciales (software detectado o ligeras disparidades locales). El archivo pudo haber pasado por un recorte, redimensionado o ajuste cosmético."
+}
+
+======================================================================
+Fin del reporte de auditoría forense.
+======================================================================

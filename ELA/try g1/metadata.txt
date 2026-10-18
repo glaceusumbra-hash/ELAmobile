@@ -1,0 +1,56 @@
+============================================================
+       REPORTE DE AUDITORÍA Y METADATOS - FIGMA EXTRACTOR PRO
+============================================================
+Fecha de generación: 2026-10-13 08:29:33
+
+------------------------------------------------------------
+1. INFORMACIÓN DEL DISPOSITIVO / ORIGEN
+------------------------------------------------------------
+  - device_security_token: 793405447763
+  - hardware_timestamp_utc: 2026-10-13T14:27:10.551087+00:00
+  - device_monotonic_clock: 45766054370900
+  - detected_software_footprints: None
+  - source_dimensions: 720x1600 px
+  - network_status: 100%_OFFLINE_LOCAL
+
+
+------------------------------------------------------------
+2. MARCO DE CREACIÓN E INTERPRETACIÓN VISUAL
+------------------------------------------------------------
+  - Modo activo: HOT
+  - Calidad JPEG base: 90%
+  - Amplificación: 15.0x
+  - Threshold de corte: 45
+  - Píxeles en discordancia: 37,314
+  - Ratio de manipulación: 3.2391%
+  - Huella SHA-256: 0e1110b14fc7bc470234dc2f1ed6422bf72dbf8495e77f6f951c32bcf5b7bfd4
+  - Diagnóstico: ALTERACIÓN DETECTADA
+
+
+------------------------------------------------------------
+3. DATASET JSON COMPLETO
+------------------------------------------------------------
+{
+    "metadata_dispositivo": {
+        "device_security_token": "793405447763",
+        "hardware_timestamp_utc": "2026-10-13T14:27:10.551087+00:00",
+        "device_monotonic_clock": 45766054370900,
+        "detected_software_footprints": "None",
+        "source_dimensions": "720x1600 px",
+        "network_status": "100%_OFFLINE_LOCAL"
+    },
+    "marco_analisis_visual": {
+        "Modo activo": "HOT",
+        "Calidad JPEG base": "90%",
+        "Amplificación": "15.0x",
+        "Threshold de corte": 45,
+        "Píxeles en discordancia": "37,314",
+        "Ratio de manipulación": "3.2391%",
+        "Huella SHA-256": "0e1110b14fc7bc470234dc2f1ed6422bf72dbf8495e77f6f951c32bcf5b7bfd4",
+        "Diagnóstico": "ALTERACIÓN DETECTADA"
+    }
+}
+
+============================================================
+Fin del reporte.
+============================================================

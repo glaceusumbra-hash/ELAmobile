@@ -1,0 +1,56 @@
+============================================================
+       REPORTE DE AUDITORÍA Y METADATOS - FIGMA EXTRACTOR PRO
+============================================================
+Fecha de generación: 2026-10-13 08:32:47
+
+------------------------------------------------------------
+1. INFORMACIÓN DEL DISPOSITIVO / ORIGEN
+------------------------------------------------------------
+  - device_security_token: a2ade1001923
+  - hardware_timestamp_utc: 2026-10-13T14:31:28.623228+00:00
+  - device_monotonic_clock: 46024126511500
+  - detected_software_footprints: None
+  - source_dimensions: 1091x720 px
+  - network_status: 100%_OFFLINE_LOCAL
+
+
+------------------------------------------------------------
+2. MARCO DE CREACIÓN E INTERPRETACIÓN VISUAL
+------------------------------------------------------------
+  - Modo activo: INFERNO
+  - Calidad JPEG base: 90%
+  - Amplificación: 15.0x
+  - Threshold de corte: 45
+  - Píxeles en discordancia: 3,166
+  - Ratio de manipulación: 0.4030%
+  - Huella SHA-256: df730924d5416043f6718384000bacf278ff466f7ce298984b3bf5f555341d78
+  - Diagnóstico: ALTERACIÓN DETECTADA
+
+
+------------------------------------------------------------
+3. DATASET JSON COMPLETO
+------------------------------------------------------------
+{
+    "metadata_dispositivo": {
+        "device_security_token": "a2ade1001923",
+        "hardware_timestamp_utc": "2026-10-13T14:31:28.623228+00:00",
+        "device_monotonic_clock": 46024126511500,
+        "detected_software_footprints": "None",
+        "source_dimensions": "1091x720 px",
+        "network_status": "100%_OFFLINE_LOCAL"
+    },
+    "marco_analisis_visual": {
+        "Modo activo": "INFERNO",
+        "Calidad JPEG base": "90%",
+        "Amplificación": "15.0x",
+        "Threshold de corte": 45,
+        "Píxeles en discordancia": "3,166",
+        "Ratio de manipulación": "0.4030%",
+        "Huella SHA-256": "df730924d5416043f6718384000bacf278ff466f7ce298984b3bf5f555341d78",
+        "Diagnóstico": "ALTERACIÓN DETECTADA"
+    }
+}
+
+============================================================
+Fin del reporte.
+============================================================

@@ -1,0 +1,81 @@
+======================================================================
+       DICTAMEN PERICIAL FORENSE DE AUDITORÍA DE IMÁGENES
+       Software: ELA Forensic Dashboard v2.6.4
+       Compilación: BUILD-2026.10-EXPERT [Figma Extractor Pro / Forensic Diagnostic Edition]
+======================================================================
+Fecha de emisión: 2026-10-14 14:54:33
+
+**********************************************************************
+I. RESULTADO Y EXPLICACIÓN DE MARCADORES (LENGUAJE NATURAL)
+**********************************************************************
+🟢 IMAGEN APARENTEMENTE ÍNTEGRA / SIN ALTERACIONES
+
+1. MARCADORES DETECTADOS:
+• SOFTWARE: No se identificaron firmas de programas de diseño conocidos (Photoshop, Canva, Figma).
+• COMPRESIÓN HOMOGÉNEA: Nivel de discordancia dentro del rango normal (0.0230%).
+
+2. EXPLICACIÓN DE LOS MARCADORES:
+  -> Interpretación: La degradación JPEG se comporta de manera uniforme en todo el lienzo, lo cual es el patrón esperado en capturas de una sola generación sin agregados externos.
+
+3. DICTAMEN PERICIAL:
+Conclusión pericial: No se encontraron patrones de costura digital ni software de diseño en cabeceras. La distribución de error es uniforme.
+
+
+----------------------------------------------------------------------
+II. INFORMACIÓN DE ORIGEN Y METADATOS TÉCNICOS
+----------------------------------------------------------------------
+  - analizador_version: v2.6.4 (BUILD-2026.10-EXPERT)
+  - device_security_token: 347c3b49fd8b
+  - hardware_timestamp_utc: 2026-10-14T20:54:15.193891+00:00
+  - device_monotonic_clock: 155398144303200
+  - detected_software_footprints: None
+  - source_dimensions: 720x1600 px
+
+
+----------------------------------------------------------------------
+III. PARÁMETROS CUANTITATIVOS DEL MARCO ELA
+----------------------------------------------------------------------
+  - Modo activo: HOT
+  - Calidad JPEG base: 90%
+  - Amplificación: 15.0x
+  - Threshold de corte: 45
+  - Píxeles en discordancia: 265
+  - Ratio de manipulación: 0.0230%
+  - Huella SHA-256: 3f28d8decfe908bfe0388c103390da20c48bbbdfed068061cd70f83d5f68011f
+  - Diagnóstico: 🟢 IMAGEN APARENTEMENTE ÍNTEGRA / SIN ALTERACIONES
+
+
+----------------------------------------------------------------------
+IV. REGISTRO CRIPTOGRÁFICO JSON COMPLETO
+----------------------------------------------------------------------
+{
+    "auditoria": {
+        "software": "ELA Forensic Dashboard",
+        "version": "v2.6.4",
+        "compilacion": "BUILD-2026.10-EXPERT",
+        "edicion": "Figma Extractor Pro / Forensic Diagnostic Edition"
+    },
+    "origen": {
+        "analizador_version": "v2.6.4 (BUILD-2026.10-EXPERT)",
+        "device_security_token": "347c3b49fd8b",
+        "hardware_timestamp_utc": "2026-10-14T20:54:15.193891+00:00",
+        "device_monotonic_clock": 155398144303200,
+        "detected_software_footprints": "None",
+        "source_dimensions": "720x1600 px"
+    },
+    "ela": {
+        "Modo activo": "HOT",
+        "Calidad JPEG base": "90%",
+        "Amplificación": "15.0x",
+        "Threshold de corte": 45,
+        "Píxeles en discordancia": "265",
+        "Ratio de manipulación": "0.0230%",
+        "Huella SHA-256": "3f28d8decfe908bfe0388c103390da20c48bbbdfed068061cd70f83d5f68011f",
+        "Diagnóstico": "🟢 IMAGEN APARENTEMENTE ÍNTEGRA / SIN ALTERACIONES"
+    },
+    "dictamen": "🟢 IMAGEN APARENTEMENTE ÍNTEGRA / SIN ALTERACIONES\n\n1. MARCADORES DETECTADOS:\n• SOFTWARE: No se identificaron firmas de programas de diseño conocidos (Photoshop, Canva, Figma).\n• COMPRESIÓN HOMOGÉNEA: Nivel de discordancia dentro del rango normal (0.0230%).\n\n2. EXPLICACIÓN DE LOS MARCADORES:\n  -> Interpretación: La degradación JPEG se comporta de manera uniforme en todo el lienzo, lo cual es el patrón esperado en capturas de una sola generación sin agregados externos.\n\n3. DICTAMEN PERICIAL:\nConclusión pericial: No se encontraron patrones de costura digital ni software de diseño en cabeceras. La distribución de error es uniforme."
+}
+
+======================================================================
+Fin del reporte de auditoría forense.
+======================================================================
