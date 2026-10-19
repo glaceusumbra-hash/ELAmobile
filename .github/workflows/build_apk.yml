@@ -32,9 +32,7 @@ jobs:
         run: pip install flet[all]
 
       - name: Compilar APK
-        run: |
-          cd ELA
-          echo "y" | flet build apk --org "com.ovz.forensic"
+        run: flet build apk --org "com.ovz.forensic"
 
       - name: Guardar APK Terminado
         uses: actions/upload-artifact@v4
